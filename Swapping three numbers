@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+
+  int a, b, c, temp;
+
+  printf("Enter the values of a, b, and c: ");
+
+  scanf("%d %d %d", &a, &b, &c);
+
+  // swapping a, b, and c values
+
+  temp = a;
+
+  a = b;
+
+  b = c;
+
+  c = temp;
+
+  printf("Swapped values of a, b, and c are: %d %d %d", a, b, c);
+
+  return 0;
+
+}
