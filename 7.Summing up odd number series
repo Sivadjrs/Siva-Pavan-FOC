@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+
+    int n, sum = 0;
+
+    printf("Enter a positive integer n: ");
+
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i += 2) {
+
+        sum = sum + i;
+
+    }
+
+    printf("The sum of the odd series 1+3+5+...+%d is %d", n, sum);
+
+    return 0;
+
+}
