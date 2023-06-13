@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int sum_digits(int n) {
+
+    int sum = 0;
+
+    while (n != 0) {
+
+        sum += n % 10;
+
+        n /= 10;
+
+    }
+
+    return sum;
+
+}
+
+int main() {
+
+    int n = 1234;
+
+    int digit_sum = sum_digits(n);
+
+    printf("The sum of digits of %d is %d", n, digit_sum);
+
+    return 0;
+
+}
