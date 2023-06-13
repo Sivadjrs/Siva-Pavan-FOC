@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+
+   int i, n;
+
+   printf("Enter two integers: ");
+
+   scanf("%d %d", &i, &n);
+
+   if (num1 > num2) {
+
+      printf("%d is bigger than %d", i, n);
+
+   }
+
+   else {
+
+      printf("%d is bigger than %d", n, i);
+
+   }
+
+   return 0;
+
+}
